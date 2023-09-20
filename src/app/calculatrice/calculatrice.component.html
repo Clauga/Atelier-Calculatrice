@@ -1,0 +1,27 @@
+<div class="container">
+    <p>Step 1 - 2 buttons</p>
+    <div>
+        <button (click)="generateNumberOne()">Generate Number One</button>
+        <button (click)="generateNumberTwo()">Generate Number two</button>
+    </div>
+    <div>
+        Number one : {{nombre1}}
+    </div>
+    <div>
+        Number one : {{nombre2}}
+    </div>
+    <p>Step 2 - select operators</p>
+    <div>
+        <button (click)="selectOperator('+')">+</button>
+        <button (click)="selectOperator('-')">-</button>
+    </div>
+    <div>
+        Operator : {{ operator }}
+    </div>
+    <div>
+        <button (click)="calculate()">Calculate</button>
+    </div>
+    <div>
+        Result : {{ result }}
+    </div>
+</div>
